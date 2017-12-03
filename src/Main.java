@@ -9,6 +9,8 @@ public class Main {
     private static String commonSubstring (String first, String second){
         String common = "";
 
+//        kjfadkljflkjdflkjsdlkjflsdjflkjsd
+
         for(int i = 0; i < first.length(); i++){
             if(second.contains(first.charAt(i) + "")){
                 int startIndex = second.indexOf(first.charAt(i));
